@@ -1,4 +1,6 @@
-# AdminApp
+# Angular Admin Dashboard
+
+This is a basic dashboard skeleton that can be reused to create dashboards and admins. The most painful part development is the boilder plate code that you have to write before you get the actual work done. Please feel free to use this for your projects. Happy coding!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
 
