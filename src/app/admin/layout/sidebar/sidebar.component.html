@@ -1,0 +1,16 @@
+<mat-drawer-container class="example-container" hasBackdrop="true">
+  <mat-drawer #drawer mode="side" [(opened)]="isOpen">
+
+    <mat-nav-list class="sidenav-main">
+      <a  routerLink="home"  class="side-nav-ele mb-3" routerLinkActive="active-list-item">
+        <button  mat-raised-button style="width: 100%;">Home</button>
+      </a>
+      
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content class="sidebar">
+    <!-- <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button> -->
+    sdasd
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
